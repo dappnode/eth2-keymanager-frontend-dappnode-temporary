@@ -6,6 +6,6 @@ export const getNetwork = (): string => {
   if (network === "mainnet") return "mainnet";
   if (network === "gnosis") return "gnosis";
   if (network === "prater") return "prater";
-  if (network === "ropsten") return "ropsten;
+  if (network === "ropsten") return "ropsten";
   return "unknown";
 };
